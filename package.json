@@ -1,0 +1,33 @@
+{
+  "name": "build-crud-apis",
+  "version": "1.0.0",
+  "description": "Building Backend APIs implementing the CRUD operations and connection to MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "Building",
+    "Backend",
+    "APIs",
+    "implementing",
+    "the",
+    "CRUD",
+    "operations",
+    "and",
+    "connection",
+    "to",
+    "MongoDB"
+  ],
+  "author": "Olúwatósìn Ògúntóyìnbó",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
